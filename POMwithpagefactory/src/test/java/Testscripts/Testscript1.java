@@ -34,7 +34,7 @@ public class Testscript1 extends Testhelper {
 	//Homepage objLogin;
 	//WebDriver driver;
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	@Parameters({"username","password"})
 	public void Parameterized(String u,String p) throws InterruptedException{
 		
@@ -66,7 +66,7 @@ public class Testscript1 extends Testhelper {
 		
 	}
 	  
-	//@Test(priority=3)
+	@Test(priority=3)
 	@Parameters({"username","password"})
 	public void datafill(String u,String p) throws InterruptedException {
 		Homepage objLogin = new Homepage(driver);	
@@ -93,7 +93,7 @@ public class Testscript1 extends Testhelper {
 	}
 	
 	
-	//@Test(priority=4)
+	@Test(priority=4)
 	@Parameters({"username","password"})
 	public void bookaflight(String u,String p) throws InterruptedException {
 		Homepage objLogin = new Homepage(driver);	
