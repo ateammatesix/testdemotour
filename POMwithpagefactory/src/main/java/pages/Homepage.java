@@ -28,6 +28,9 @@ WebElement signin;
 @FindBy(xpath="/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[4]/a")
 WebElement Contact;
 
+@FindBy(xpath="/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a")
+WebElement signonpage;
+
 
 public Homepage(WebDriver driver){
 
@@ -77,6 +80,17 @@ public Contactpage Contact() {
 	Contact.click();
 	
 	return new Contactpage(driver);
+	
+	
+	
+}
+
+
+public Mercurysignon signon() {
+	
+	signonpage.click();
+	
+	return new Mercurysignon(driver);
 	
 	
 	

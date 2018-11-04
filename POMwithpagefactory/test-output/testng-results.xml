@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32784" started-at="2018-10-30T18:00:38Z" finished-at="2018-10-30T18:01:10Z">
+  <suite name="Suite" duration-ms="7423" started-at="2018-11-04T18:37:26Z" finished-at="2018-11-04T18:37:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32784" started-at="2018-10-30T18:00:38Z" finished-at="2018-10-30T18:01:10Z">
+    <test name="Test" duration-ms="7423" started-at="2018-11-04T18:37:26Z" finished-at="2018-11-04T18:37:34Z">
       <class name="Testscripts.Testscript1">
-        <test-method status="PASS" signature="openbrowers(java.lang.String)[pri:0, instance:Testscripts.Testscript1@3ffc5af1]" name="openbrowers" is-config="true" duration-ms="6171" started-at="2018-10-30T18:00:38Z" finished-at="2018-10-30T18:00:44Z">
+        <test-method status="PASS" signature="openbrowers(java.lang.String)[pri:0, instance:Testscripts.Testscript1@3ffc5af1]" name="openbrowers" is-config="true" duration-ms="5224" started-at="2018-11-04T18:37:26Z" finished-at="2018-11-04T18:37:32Z">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowers -->
-        <test-method status="PASS" signature="totalcount(java.lang.String, java.lang.String)[pri:5, instance:Testscripts.Testscript1@3ffc5af1]" name="totalcount" duration-ms="26567" started-at="2018-10-30T18:00:44Z" finished-at="2018-10-30T18:01:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nino070]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[parayil007]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="signdoubleclick()[pri:0, instance:Testscripts.Testscript1@3ffc5af1]" name="signdoubleclick" duration-ms="2148" started-at="2018-11-04T18:37:32Z" finished-at="2018-11-04T18:37:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- totalcount -->
+        </test-method> <!-- signdoubleclick -->
       </class> <!-- Testscripts.Testscript1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

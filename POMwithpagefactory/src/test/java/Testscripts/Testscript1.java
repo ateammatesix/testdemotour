@@ -25,6 +25,7 @@ import org.testng.annotations.Test;
 import pages.Contactpage;
 import pages.Homepage;
 import pages.Loginedpage;
+import pages.Mercurysignon;
 import pages.mercurypurchase;
 import pages.mercurypurchase2;
 import pages.mercuryreservation2;
@@ -34,7 +35,7 @@ public class Testscript1 extends Testhelper {
 	//Homepage objLogin;
 	//WebDriver driver;
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	@Parameters({"username","password"})
 	public void Parameterized(String u,String p) throws InterruptedException{
 		
@@ -66,7 +67,7 @@ public class Testscript1 extends Testhelper {
 		
 	}
 	  
-	@Test(priority=3)
+	//@Test(priority=3)
 	@Parameters({"username","password"})
 	public void datafill(String u,String p) throws InterruptedException {
 		Homepage objLogin = new Homepage(driver);	
@@ -93,7 +94,7 @@ public class Testscript1 extends Testhelper {
 	}
 	
 	
-	@Test(priority=4)
+	//@Test(priority=4)
 	@Parameters({"username","password"})
 	public void bookaflight(String u,String p) throws InterruptedException {
 		Homepage objLogin = new Homepage(driver);	
@@ -129,7 +130,7 @@ public class Testscript1 extends Testhelper {
 	
 	}
 	
-	@Test(priority=5)
+	//@Test(priority=5)
 	@Parameters({"username","password"})
 	public void totalcount(String u,String p) throws InterruptedException {
 		Homepage objLogin = new Homepage(driver);	
@@ -227,6 +228,17 @@ public class Testscript1 extends Testhelper {
 	    		 
 	    		 
 
+	    	}
+	    	
+	    	
+	    	
+	    	@Test
+	    	public void signdoubleclick() {
+	    		Homepage objLogin = new Homepage(driver);
+	    		objLogin.signon();
+	    		Mercurysignon objsignon = new Mercurysignon(driver);
+               objsignon.submitclick();
+	    		
 	    	}
 	    	
   	

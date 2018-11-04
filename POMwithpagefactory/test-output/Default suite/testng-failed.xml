@@ -5,9 +5,8 @@
     <classes>
       <class name="Testscripts.Testscript1">
         <methods>
-          <include name="Parameterized"/>
-          <include name="browserclose"/>
           <include name="openbrowers"/>
+          <include name="signdoubleclick"/>
         </methods>
       </class> <!-- Testscripts.Testscript1 -->
     </classes>

@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="password" value="parayil007"/>
-    <parameter name="browsers" value="Chrome"/>
-    <parameter name="username" value="nino070"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="Testscripts.Testscript1">
         <methods>
-          <include name="totalcount"/>
-          <include name="browserclose"/>
-          <include name="bookaflight" invocation-numbers="0"/>
           <include name="openbrowers"/>
+          <include name="signdoubleclick"/>
         </methods>
       </class> <!-- Testscripts.Testscript1 -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
